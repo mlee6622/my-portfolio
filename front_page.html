@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Portfolio of Madeline Lee - Psychology and UX Design student passionate about crafting meaningful, user-centered digital experiences that connect people and technology.">
+    <meta name="keywords"
+        content="Madeline Lee, UX Design, Psychology, Portfolio, UI Design, Human-Centered Design, User Experience, Web Design, Digital Product Design, Research">
+    <title>Madeline Lee | Portfolio</title>
+
+    <link rel="stylesheet" href="main.css">
+
+    <style>
+        .container {
+            position: relative;
+            display: flex;
+            align-items: flex-end;
+            justify-content: flex-start;
+            padding: 0 60px 10px;
+            height: 100vh;
+            box-sizing: border-box;
+        }
+
+        .text {
+            max-width: 45%;
+            margin-bottom: 30px;
+
+        }
+
+        .text h1 {
+            font-size: 7rem;
+            line-height: 0.8;
+            margin: 0px;
+        }
+
+        .text p {
+            font-size: 1rem;
+            color: #666;
+            max-width: 80%;
+            margin-bottom: 25px;
+            letter-spacing: 0.5px;
+
+        }
+
+        .thumbnail {
+            position: absolute;
+            top: 50%;
+            right: 100px;
+            transform: translateY(-50%);
+            width: 25%;
+            max-width: 350px;
+        }
+
+        .thumbnail img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+            object-fit: cover;
+            transition: transform 1s ease, box-shadow 0.8s ease;
+        }
+
+        .thumbnail:hover img {
+            transform: scale(1.05);
+            box-shadow: 0 10px 25px rgba(170, 170, 170, 0.5);
+        }
+    </style>
+</head>
+
+<body>
+    <div id="name">
+        <a href="">ML</a>
+    </div>
+
+    <div class="navbar">
+        <a href="about_page.html">About</a>
+        <a href="">Works</a>
+        <a href="contact_page.html">Contact</a>
+    </div>
+
+    <div class="container">
+        <div class="text">
+            <p>Psychology and UX design student passionate about creating meaningful, user-centered digital experiences.
+            </p>
+            <h1>MADELINE LEE</h1>
+
+        </div>
+
+        <div class="thumbnail">
+            <img id="portrait" src="img/img.JPG" alt="Madeline's portrait">
+        </div>
+    </div>
+
+    <div class="footer">
+        Based in Los Angeles - Exploring Human Behavior & Design
+    </div>
+
+
+</body>
+
+</html>
